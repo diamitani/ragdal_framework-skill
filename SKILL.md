@@ -1,3 +1,9 @@
+---
+name: ragdal-framework
+description: >
+  **Canonical source:** https://rostr-paper.vercel.app/#s5 *Read this file before running enrichment. Fetch the live section only if a definition is still unclear.* RAG DAL is the **unified query interface** the system uses to enrich a project's knowledge base before the PRD and JTBD plan are generate Use this skill when working with ragdal framework tasks or workflows.
+---
+
 # RAG DAL — Retrieval / Data Abstraction Layer
 
 **Canonical source:** https://rostr-paper.vercel.app/#s5
@@ -54,9 +60,9 @@ Generic search returns noise; domain-specific queries return signal. Map the pro
 
 ---
 
-## Internal sources ({{COMPANY_NAME}}-specific — always include)
+## Internal sources (Enterprise Platform-specific — always include)
 
-- `CLAUDE.md` — {{COMPANY_NAME}} ICP, value props, competitive positioning.
+- `CLAUDE.md` — Enterprise Platform ICP, value props, competitive positioning.
 - Project instructions — PRD template, output schemas.
 - Past project KBs via `rag_dal.knowledge_base` — surface similar prior projects as additional context (reuse detection).
 
